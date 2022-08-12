@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 100vh; /*HEIGHT 100VH PARA PREENCHER A TELA TODA*/
+	width: 100vw; /*WIDTH 100VH PARA PREENCHER A TELA TODA*/
+	background-color: orange;
+}
+
+div.left{
+	float: left;
+	height: 100vh;
+	width: 60vw;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+article.textoCabeca{
+	position: relative;
+	height: 40%;
+	width: 40%;
+	border: 5px solid;
+	border-color: orange;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: left;
+}
+
+.subtitulo{
+	color: white;
+	background-color: blue;
+}
+
+.titulo{
+	color: orange;
+	background-color: red;
+}
+
+span.ola {
+	color: white;
+	background-color: green;
+}
